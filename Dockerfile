@@ -5,6 +5,6 @@ RUN cd /tmp && unzip jester.zip && ls -l
 
 RUN echo "env | grep JAVA"
 RUN java -version
-CMD ["/tmp/jester/jester/sh"]
+CMD ["/tmp/jester/jester.sh"]
 
 
